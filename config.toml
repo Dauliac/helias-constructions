@@ -1,0 +1,141 @@
+######################## default configuration ####################
+baseURL = "https://helias-constructions.fr/"
+languageCode = "fr-FR"
+title = "Helias Construction SARL"
+theme="restaurant-hugo"
+summaryLength = "7"
+paginate = 4
+publishDir = "docs"
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "css/slick.css"
+  [[params.plugins.css]]
+  URL = "css/font-awesome.min.css"
+  [[params.plugins.css]]
+  URL = "css/animate.min.css"
+  [[params.plugins.css]]
+  URL = "css/venobox.css"
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/responsive.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "js/slick.min.js"
+  [[params.plugins.js]]
+  URL = "js/wow.min.js"
+  [[params.plugins.js]]
+  URL = "js/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "js/main.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "Acceuil"
+  URL = "hero-area"
+  weight = 1
+
+  [[menu.main]]
+  name = "A propos"
+  URL = "a-propos"
+  weight = 2
+
+  [[menu.main]]
+  name = "Mes ouvrages"
+  URL = "ouvrages"
+  weight = 3
+
+  [[menu.main]]
+  name = "Prix"
+  URL = "prix"
+  weight = 4
+
+  # [[menu.main]]
+  # name = "Contactez nous"
+  # URL = "contact"
+  # weight = 6
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# meta data
+author = "Themefisher"
+description = "SARL Helias Construction, artisan du pays charentais."
+
+# google analitycs ID
+google_analitycs_id = "Your ID"
+
+# copyright
+copyright = "Tout droits réservés SARL - helias constructions"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "INFROMATION DE<span>CONTACT</span> "
+blogTitle = "DERNIÈRES <span>RÉALISATION</span>"
+galleryTitle = "FLUX DE <span>PHOTOS</span>"
+socialTitle = "SUIVEZ <span>NOUS</span>"
+
+############################ footer contact item
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "+33633181123"
+
+# [[params.footer.contactItem]]
+# title="Address"
+# icon = "fa fa-map-marker"
+# content = "2046 Blue Spruce Lane Laurel Canada"
+
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "loic.helias@live.fr"
+
+######################### footer gallery
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-3.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-4.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+######################## Social Icon
+[[params.footer.socialLink]]
+icon = "horse-head"
+link = "https://ecuriedesmathines.fr/"
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
+

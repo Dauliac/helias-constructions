@@ -1,0 +1,79 @@
+################## Hero area ##################
+title: Helias SARL
+heroArea:
+  enable : true
+  bgImage : "images/header.png"
+  overlay:
+    enable : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "Nos plus beau chantiers"
+  sliderItem:
+    - image : "images/carrousel/1.jpg"
+    - image : "images/carrousel/2.jpg"
+    - image : "images/carrousel/3.jpg"
+    - image : "images/carrousel/4.jpg"
+    - image : "images/carrousel/5.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/loic.png"
+  title : "Loic Helias artisan du pays charentais 🏗️"
+  description : "La satisfaction du client, le respect des détails, la propreté des chantiers sont au centre de toutes nos attentions."
+
+################# Blog ######################
+blog:
+  enable : true
+  title : "Nos dernières  <span>Réalisations</span>"
+  bgImage : "images/blog/background.png"
+  overlay:
+    enable : true
+
+
+################# Tarifs ################
+pricing:
+  enable : true
+  title : "Nos compétences & tarifs"
+  description: "Dire qu'on est pas les moins cher mais que c'est parce qu'on fait du travail de qualité."
+  subtitle : "Notre large spectre compétences couvre <br/> la maçonerie, à la peinture, aménagement extérieurs, carrelage, sols, enduits"
+  pricingItem:
+    - title: "Toiture 📏"
+      description: "Couverture, menuiserie, charpente, isolation"
+    - title: "Maçonerie 🧱"
+      description: "Foundations, élévation des murs, béton"
+    - title: "Sale de bain 🛁"
+      description: "Carrelage, peinture, enduits"
+    - title: "Extérieux 🏡"
+      description: "Piscine, aménagements de jardin, terrasse"
+    - title: "Revetement 🖌️"
+      description: "Peinture, cloisons, enduits, carrelage"
+      # price : "1.45 €"
+
+
+
+
+
+
+
+
+################### Subscription ################
+subscription:
+  enable : false
+  bgImage : "images/subscribe-bg.jpg"
+  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  #Mailchimp subscription configaration
+  formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay:
+    enable : true
+
+################ Contact #######################
+contact:
+  enable : false
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  formAction : "#" #contact form works with formspree.io
