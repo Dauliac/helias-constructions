@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://helias-constructions.fr/"
+baseURL = "https://helias-constructions.com/"
 languageCode = "fr-FR"
-title = "Helias Construction SARL"
+title = "SARL Helias Constructions"
 theme="restaurant-hugo"
 summaryLength = "7"
 paginate = 4
@@ -74,7 +74,7 @@ publishDir = "docs"
 logo = "images/logo.png"
 # meta data
 author = "Themefisher"
-description = "SARL Helias Construction, artisan du pays charentais."
+description = "SARL Helias Constructions, artisan du pays charentais."
 
 # google analitycs ID
 google_analitycs_id = "Your ID"
