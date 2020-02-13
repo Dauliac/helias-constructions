@@ -45,22 +45,22 @@ publishDir = "docs"
 
   [[menu.main]]
   name = "Acceuil"
-  URL = "hero-area"
+  URL = "slider"
   weight = 1
 
   [[menu.main]]
   name = "A propos"
-  URL = "a-propos"
+  URL = "about-us"
   weight = 2
 
   [[menu.main]]
   name = "Mes ouvrages"
-  URL = "ouvrages"
+  URL = "blog"
   weight = 3
 
   [[menu.main]]
-  name = "Prix"
-  URL = "prix"
+  name = ""
+  URL = "price"
   weight = 4
 
   # [[menu.main]]

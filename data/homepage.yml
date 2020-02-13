@@ -27,7 +27,7 @@ about:
 ################# Blog ######################
 blog:
   enable : true
-  title : "Nos dernières  réalisations"
+  title : "Nos derniers ouvrages"
   bgImage : "images/blog/background.png"
   overlay:
     enable : true
