@@ -9,7 +9,7 @@ heroArea:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "Nos plus beau chantiers"
+  title : "Nos plus beaux chantiers"
   sliderItem:
     - image : "images/carrousel/1.jpg"
     - image : "images/carrousel/2.jpg"
@@ -27,7 +27,7 @@ about:
 ################# Blog ######################
 blog:
   enable : true
-  title : "Nos dernières  <span>Réalisations</span>"
+  title : "Nos dernières  réalisations"
   bgImage : "images/blog/background.png"
   overlay:
     enable : true
@@ -36,9 +36,9 @@ blog:
 ################# Tarifs ################
 pricing:
   enable : true
-  title : "Nos compétences & tarifs"
+  title : "Nos compétences"
   description: "Dire qu'on est pas les moins cher mais que c'est parce qu'on fait du travail de qualité."
-  subtitle : "Notre large spectre compétences couvre <br/> la maçonerie, à la peinture, aménagement extérieurs, carrelage, sols, enduits"
+  subtitle : "Notre large spectre compétences saura satisfaire aussi bien vos aménagements intérieurs qu'extérieurs."
   pricingItem:
     - title: "Toiture 📏"
       description: "Couverture, menuiserie, charpente, isolation"
@@ -51,12 +51,6 @@ pricing:
     - title: "Revetement 🖌️"
       description: "Peinture, cloisons, enduits, carrelage"
       # price : "1.45 €"
-
-
-
-
-
-
 
 
 ################### Subscription ################
