@@ -36,6 +36,10 @@ workflows:
       - hugo/build:
           html-proofer: false
           version: '0.68.3'
+          filters:
+            branches:
+              only:
+                - master
       - deploy:
           requires:
             - hugo/build
