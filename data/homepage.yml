@@ -1,4 +1,4 @@
-################## Hero area ##################
+################## Zone en-tete ##################
 title: Helias SARL
 heroArea:
   enable : true
@@ -6,7 +6,7 @@ heroArea:
   overlay:
     enable : true
 
-################### Gallery ###################
+################### Carrousel de photos ###################
 gallery:
   enable : true
   title : "Nos plus beaux chantiers"
@@ -17,7 +17,7 @@ gallery:
     - image : "images/carrousel/4.jpg"
     - image : "images/carrousel/5.jpg"
 
-################ About #######################
+################ A propos #######################
 about:
   enable : true
   image : "images/loic.png"
@@ -33,11 +33,11 @@ blog:
     enable : true
 
 
-################# Tarifs ################
+################# Tarifs/Compétences ################
 pricing:
   enable : true
   title : "Nos compétences"
-  description: "Dire qu'on est pas les moins cher mais que c'est parce qu'on fait du travail de qualité."
+  description: "Nous avons du savoir faire et on vous le montre ! **N'hésitez pas à demander un devis !**"
   subtitle : "Notre large spectre compétences saura satisfaire aussi bien vos aménagements intérieurs qu'extérieurs."
   pricingItem:
     - title: "Toiture 📏"
