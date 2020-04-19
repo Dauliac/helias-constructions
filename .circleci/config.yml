@@ -1,12 +1,16 @@
 # from: https://circleci.com/orbs/registry/orb/circleci/hugo
 jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - checkout
+      - run: hugo -v
   deploy:
     docker:
       - image: node:8.10.0
     steps:
       - checkout
-      - attach_workspace:
-          at: docs/_build
       - run:
           name: Disable jekyll builds
           command: touch public/.nojekyll
@@ -26,21 +30,16 @@ jobs:
           name: Deploy public websites to gh-pages branch
           command: gh-pages --dotfiles --message "[skip ci] Deploy in production" --dist public
 
-
-orbs:
-  hugo: circleci/hugo@0.4.1
 version: 2.1
 workflows:
   main:
     jobs:
-      - hugo/build:
-          html-proofer: false
-          version: '0.68.3'
+      - build:
           filters:
             branches:
               only:
                 - master
       - deploy:
           requires:
-            - hugo/build
+            - build
 
