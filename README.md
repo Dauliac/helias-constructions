@@ -1,5 +1,5 @@
 # helias-constructions
-[lien du site: https://helias-construction.com](http://helias-constructions.com/)
+[lien du site: https://helias-constructions.com](http://helias-constructions.com/)
 
 *L'icon ci-dessous indique si le déploiement du site à marché ou non.*
 
