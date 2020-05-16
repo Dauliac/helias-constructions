@@ -12,9 +12,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Disable jekyll builds
-          command: touch public/.nojekyll
-      - run:
           name: Install and configure dependencies
           command: |
             npm install -g --silent gh-pages@2.0.1
@@ -26,9 +23,13 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "6b:19:27:c9:c5:39:de:ae:70:4f:f4:5e:b3:8c:3c:eb"
+
+      - run:
+          name: List build files
+          command: ls docs
       - run:
           name: Deploy public websites to gh-pages branch
-          command: gh-pages --dotfiles --message "[skip ci] Deploy in production" --dist public
+          command: gh-pages --dotfiles --message "[skip ci] Deploy at $(date)" --dist docs
 
 version: 2.1
 workflows:
