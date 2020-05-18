@@ -69,14 +69,13 @@ draft: true
 ---
 ```
 
-### le contenu du billet de blog
+
 La suite est écrite suivant notre fameuse syntaxe markdown, voici un petit exemple (n'hésitez pas à le copier coller dans [typora](https://typora.io/#download) pour voir le rendu, vous ne vérez cependant pas les rendus d'images):
 
 ```makdown
 # Construction d'une piscine
 
 Voici un parfait exemple d'aménagement extérieur que nous sommes capables de produire.
-
 [description de l 'image](ma-piscine.png)
 
 ## Titre 2
